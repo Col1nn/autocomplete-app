@@ -1,0 +1,40 @@
+:root{
+    --autocomplete-font-size:14px;
+    --autocomplete-padding: 10px 5px;
+}
+
+.autoComplete{
+    width:100%;
+    border: 1px solid green;
+    font-size: var(--autocomplete-font-size);
+}
+
+.autoComplete-input {
+    width: 100%;
+    border: none;
+    font-size: var(--autocomplete-font-size);
+    padding: var(--autocomplete-padding);
+    outline: none;
+}
+
+.autoComplete-ul {
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid green;
+}
+
+.autoComplete-ul::before{
+    content: "";
+}
+
+.autoComplete-li {
+    padding: var(--autocomplete-padding);
+    cursor: pointer;
+}
+
+.autoComplete-li:hover{
+    text-decoration: underline;
+    background-color: green;
+}

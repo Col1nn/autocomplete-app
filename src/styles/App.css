@@ -1,0 +1,19 @@
+:root{
+  --autocomplete-inputs-margin: 150px auto 0;
+  --autocomplete-inputs-width: 500px;
+}
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nameOfApp{
+  text-align: center;
+}
+
+.autocomplete-inputs{
+  margin: var(--autocomplete-inputs-margin);
+  width: var(--autocomplete-inputs-width);
+}
