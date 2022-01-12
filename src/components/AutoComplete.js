@@ -34,7 +34,7 @@ const AutoComplete = ({ data }) => {
 
     return (
         <div className="autoComplete">
-            <textarea type="text" onChange={addText} value={text} className='autoComplete-input' />
+            <input type="text" onChange={addText} value={text} className='autoComplete-input' />
             {showSuggestions()}
         </div>
     )
